@@ -1,0 +1,36 @@
+<!doctype html>
+<head>
+<title>Registro</title>
+</head>
+<body>
+<form           name="registro"
+                     method="post"
+                   action="registro1.php">
+<div  align=center>
+<table width="800">
+<tr>
+<td><h4>registro</h4></td>
+</tr>
+<tr>
+<td>nombre</td>
+<td><input type="text" name="nombre"  required="reqired"/></td>
+<td>Apellido</td>
+<td><input type="text" name="apellido"  required="reqired"/></td>
+</tr>
+<tr>
+<td>Correo electronico</td>
+<td><input type="email" name=email required="reqired"/></td>
+</tr>
+<tr>
+<td>crear contraseña</td>
+<td><input  type="password" name="clave"  title="clave" required="required"/></td>
+<tr>
+<td>vuelve a escribir la contraseña</td>
+<td><input  type="password" name="clave2" title="clave2 " required="required"/></td>
+</tr>
+<td><input type="submit" value="Enviar"></td>
+</table>
+</div>
+</from>
+</body>
+</html>
